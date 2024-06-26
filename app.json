@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "ADITYA",
+    "slug": "ADITYA",
+    "scheme": ["aditya"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.gangadharjami.ADITYA"
+    },
+    "web": {
+      "favicon": "./public/icon.png"
+    },
+    "plugins": [
+      "expo-router"
+      
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "45dc0982-6a95-4191-b6a9-e44fa7932282"
+      }
+    }
+  }
+}
